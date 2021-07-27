@@ -55,7 +55,7 @@ int main() {
         a[i] = rand();
     }
 	
-    /*Uncomment below part to calculate runtime complexity for the Descending order, to calculate for ascending order replace '<' with '>' in line no. 63*/
+    /*Uncomment below part to calculate runtime complexity for the Descending order, to calculate for ascending order replace '<' with '>' in line no. 65*/
 
    /* int temp1;
     for(int i=0;i<n;i++) {
