@@ -47,27 +47,15 @@ int main() {
     scanf("%d",&n);
     
     int a[n];
-
+	
+    /*generating array of n random numbers*/
+	
     for(int i = 0; i < n; i++) {
     
         a[i] = rand();
     }
-    /*Uncomment below part to calculate time complexity for the Ascending order (Best Case)*/
-    /* int temp1;
-     for(int i = 0; i < n; i++) {
-    
-         for(int j = 0; i < n-i-1; j++) {
-	 
-	     if(a[j] > a[j+1]) {
-	     
-	         temp1 = a[j];
-  	       	a[j] = a[j+1];
- 		a[j+1] = temp1;
-	    }  
-	}
-    }*/
 	
-    /*Uncomment below part to calculate runtime complexity for the Descending order*/
+    /*Uncomment below part to calculate runtime complexity for the Descending order, to calculate for ascending order replace '<' with '>' in line no. 63*/
 
    /* int temp1;
     for(int i=0;i<n;i++) {
@@ -78,7 +66,7 @@ int main() {
 	       
 	       temp1 = a[i];
 	       a[i] = a[j];
-	       a[j] = temp;
+	       a[j] = temp1;
 	   }
        }
     }*/
