@@ -108,6 +108,8 @@ int main() {
     scanf("%d", &n);
 
     int arr[n];
+    
+    printf("Enter array elements: "); 
 
     for(int i = 0; i < n; i++)
     {
