@@ -1,0 +1,13 @@
+# Solution to the Guess your hat color puzzle
+
+1. The prisoner at the 10th position will count the number of even coloured hats.
+2. Suppose there are 4 white hats in front of him.
+3. So he will say "White".
+4. Suppose he dies, all other prisoners will know that there are still even numbers of white hats present.
+5. Now the 9th prisoner will check the number of white hats in front of him.
+6. If they are even, he will say "black" otherwise "white".
+7. If black, still even white hats present. 8th prisoner will again check number of white hats and will say accordingly.
+8  If white, there are now odd number of white hats present, 8th prisoner will check white hats number and say accordingly.
+9. In this way the prisoners from 9th to 1st position will be saved.
+
+(9 Prisoners saved!!)
