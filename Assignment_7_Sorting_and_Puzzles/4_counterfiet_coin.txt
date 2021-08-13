@@ -1,0 +1,42 @@
+Solution to the Guess your hat color puzzle:
+
+# Select 8 coins and weigh 4-4 on each side.
+
+  Now there can be 2 scenarios:
+ 
+  A.Two sides get balanced.
+  B.Two sides do not balance.
+
+  "Scenario A"
+
+1.If it is balanced, We know that the counterfiet coin is not
+  in these 8 coins, it will be present in the rest 4 coins. (1st weigh attempt used)
+
+2.Select 3 coins from the normal 8 coins and 3 from the rest 4 coins and weigh them. (2nd weigh attempt used)
+
+  Now there can also be 2 sub-scenarios:
+
+  I.It balances
+    
+    If it balances then we can say that these 11 coins are normal and the left 1 coin is the counterfiet coin.
+
+  II.Do not balance
+
+    If it does not balance, select the coins on the lighter side and weigh 2 of them (3rd weigh attempt used)
+        --if it balances, third left one is the counterfiet coin.
+        --if it not balance, the lighter one is the counterfiet coin.
+
+    If it does not balance, select the coind on the heavier side and weigh 2 of them (3rd weigh attemp used)
+        --if it balances, third left one is the counterfiet coin.
+        --if it not balances, the heavier one is the counterfiet coin.
+
+   "Scenario B"
+
+1.Two sides do not balance, the rest 4 will be normal coins.
+2.Now select on coin from the heavier side and 1 from the lighter side.
+3.Put heavier 1 with 3 lighter ones on one side and on the other side put lighter 1 with 3 normal ones and weigh them. (1st attempt used)
+4.Now if the side with heavier 1 coin is heavy, it is either heavier 1 or the lighter 1.
+5.To find it, weigh each one of them with a normal one and check the balance (2nd and 3rd attempt used)
+6.if balances, the third lighter one is counterfiet coin, else the heavier one is counterfiet coin.
+
+   
