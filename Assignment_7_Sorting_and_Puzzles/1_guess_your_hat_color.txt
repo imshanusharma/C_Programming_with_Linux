@@ -11,3 +11,17 @@
 9. In this way the prisoners from 9th to 1st position will be saved.
 
 (9 Prisoners saved!!)
+
+# Mathematical Approach
+
+Code white color hats : +1 (for even)
+Code black color hats : -1 (for odd)
+
+Multiplying the will always give either +1 or -1.
+
+(Suppose there are 4 white hats) in front of 10th prisoner.
+
+1.The prisoner at the 10th position will count white hats, so he will say either black and white.
+2.The prisoner at 9th position will now calculate the result by multiplying the code associated with each colored hat.
+  (for example, if there are 4 white and 4 black are in front of him. So, +1*+1*+1*+1*-1*-1*-1*-1) == -1, So he will say "Black")
+3.In this way every other prisoner will calculate and say accordingly and will be saved!
