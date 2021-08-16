@@ -69,7 +69,7 @@ int main() {
     scanf("%d",&M);
 
     quick_sort(array,0,size);
-    
+        
     printf("The Mth smallest element is : %d",array[M]);
 
     return 0;
