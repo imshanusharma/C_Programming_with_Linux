@@ -14,7 +14,17 @@
  * };
  */
 
-struct ListNode* removeNthFromEnd(struct ListNode *head) {
+/* Function to delete Nth node from the end.
+ *
+ * Parameter :
+ * head: Pointer pointing to the head of the linked list
+ * n : value of nth node from the end
+ *
+ * Return
+ * List after removing Nth node from the end.
+ */
+
+struct ListNode* removeNthFromEnd(struct ListNode *head, int n) {
 
     //edge cases
 
