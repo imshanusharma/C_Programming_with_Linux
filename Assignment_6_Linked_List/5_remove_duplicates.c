@@ -14,7 +14,7 @@
  * };
  */
 
-struct ListNode deleteDuplicates(struct ListNode *head) {
+struct ListNode* deleteDuplicates(struct ListNode *head) {
 
     //edge cases
 
